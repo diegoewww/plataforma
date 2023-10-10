@@ -2,8 +2,17 @@ import './globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'JS Diego',
-  description: 'JS Resource',
+  title: 'JS Mastery',
+  description: 'JS Mastery Resources',
+  other: {
+    'theme-color': '#0d1117',
+    "color-scheme": "dark only",
+    "twitter:image": 'https://res.cloudinary.com/dkqyobqlb/image/upload/v1690315714/t6ll4ve2ji5ehtox3oa8.jpg',
+    "twitter:card": "summary_large_image",
+    "og:url": "jsmastery.pro",
+    "og:image": 'https://res.cloudinary.com/dkqyobqlb/image/upload/v1690315714/t6ll4ve2ji5ehtox3oa8.jpg',
+    "og:type": "website",
+  }
 }
 
 export default function RootLayout({
