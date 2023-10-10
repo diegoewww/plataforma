@@ -5,7 +5,7 @@ const schema = {
   fields: [
     {
       name: 'title',
-      title: 'title',
+      title: 'Title',
       type: 'string',
       require,
       validation: (Rule: any) => Rule.required()
@@ -34,7 +34,7 @@ const schema = {
       type: 'image',
       validation: (Rule: any) => Rule.required(),
       options: {
-        hotspot: true
+        hotspot: true,
       }
     },
     {
@@ -48,4 +48,5 @@ const schema = {
     }
   ]
 }
+
 export default schema;
